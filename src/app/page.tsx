@@ -48,10 +48,13 @@ export default function Home() {
     }
     setLoading(false);
 
+
+    
+
   }
   return (
-    <div className="bg-gradient-to-br  from-gray-700 via-gray-800 to-black">
-    <div className="min-h-screen flex flex-col md:bg-[url('/bgimage.png')] md:bg-fixed text-white md:bg-cover">
+    <div >
+    <div className="min-h-screen flex flex-col md:bg-fixed text-white md:bg-cover">
       <NavBar />
       <section id="home" className="min-h-screen flex flex-col items-center justify-center px-4 mt-20">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-6 text-center">

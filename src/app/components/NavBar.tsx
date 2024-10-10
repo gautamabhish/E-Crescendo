@@ -1,5 +1,3 @@
-// components/NavBar.tsx
-
 import Image from "next/image";
 import { useState } from "react";
 
@@ -26,7 +24,7 @@ const NavBar: React.FC = () => {
             <a href="/#timeline" className="text-white font-Poppins text-xl hover:text-indigo-400 transition transform hover:scale-110">
               Timeline
             </a>
-            <a href="/#instructions" className="text-white  font-Poppins text-xl hover:text-indigo-400 transition transform hover:scale-110">
+            <a href="/#instructions" className="text-white font-Poppins text-xl hover:text-indigo-400 transition transform hover:scale-110">
               Instructions
             </a>
             <a href="/#apply" className="text-white font-Poppins text-xl hover:text-indigo-400 transition transform hover:scale-110">
@@ -39,7 +37,7 @@ const NavBar: React.FC = () => {
               Admin Pannel
             </a>
           </div>
-          <button className="xl:hidden text-white" onClick={toggleMenu}>
+          <button className="xl:hidden text-white ml-auto" onClick={toggleMenu}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
@@ -65,7 +63,7 @@ const NavBar: React.FC = () => {
             Contact Us
           </a>
           <a href="/AdminPage" className="block font-Poppins my-2 text-2xl text-cyan-400 transition transform hover:scale-110">
-              Admin Pannel
+            Admin Pannel
           </a>
         </div>
       )}
